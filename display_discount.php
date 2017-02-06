@@ -14,7 +14,10 @@
     $discount_formatted = '$'.number_format($discount, 2);
     $discount_price_formatted = '$'.number_format($discount_price, 2);
 
-
+    $product_description = htmlspecialchars($product_description);
+    $list_price_formatted = htmlspecialchars($list_price_formatted);
+    $discount_percent_formatted =
+    htmlspecialchars($discount_percent_formatted);
 
 ?>
 
